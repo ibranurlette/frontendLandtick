@@ -1,0 +1,16 @@
+.jumboContainer {
+  background-image: url("../../../assets/8.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.TextLantick {
+  font-size: 50px;
+  color: #fafaf7;
+  text-shadow: 1px 1px 0px #1d1719;
+}
+.DescLantick {
+  font-size: 20px;
+  color: #fafaf7;
+  text-shadow: 1px 1px 0px #1c2001;
+}
