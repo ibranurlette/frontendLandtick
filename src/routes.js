@@ -19,8 +19,15 @@ function Routes() {
     <div>
       <Router>
         <Switch>
+          <Route path="/preview-keranjang">
+            <Header />
+            <PreviewPembayaran />
+            <Footer />
+          </Route>
           <Route path="/keranjang">
-            <Kerangjang />
+            <Header />
+            <KerangjangPembelian />
+            <Footer />
           </Route>
           <Route path="/home">
             <Home />
@@ -51,16 +58,6 @@ function Home() {
       <HomeJumbo />
       <CardSearch />
       <DataTable />
-      <Footer />
-    </div>
-  );
-}
-function Kerangjang() {
-  return (
-    <div>
-      <Header />
-      <KerangjangPembelian />
-      <PreviewPembayaran />
       <Footer />
     </div>
   );

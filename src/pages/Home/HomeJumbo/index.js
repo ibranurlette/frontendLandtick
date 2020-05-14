@@ -6,7 +6,7 @@ import iklan from "../../../assets/iklan.jpg";
 function HomeJumbo() {
   return (
     <div className="jumboHomeContainer">
-      <div className="row">
+      <div className="row JumboRowContainer">
         <div className="col-sm">
           <Jumbotron className="bg-transparent">
             <h1 className="TextHomeLantick">LANDTICK</h1>

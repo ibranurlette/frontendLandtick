@@ -4,6 +4,8 @@ import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { MdTrain } from "react-icons/md";
 import { BsFillPersonFill } from "react-icons/bs";
 import { TiShoppingCart } from "react-icons/ti";
+import { IoIosArrowBack } from "react-icons/io";
+import { RiLogoutCircleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
@@ -38,6 +40,22 @@ const Header = () => {
                     style={{ fontSize: 25, paddingRight: 5, color: "#5DB549" }}
                   />
                   Keranjang
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item style={{}}>
+                <Link to="/keranjang">
+                  <IoIosArrowBack
+                    style={{ fontSize: 25, paddingRight: 5, color: "grey" }}
+                  />
+                  Back
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item style={{}}>
+                <Link to="/">
+                  <RiLogoutCircleLine
+                    style={{ fontSize: 25, paddingRight: 5, color: "red" }}
+                  />
+                  Logout
                 </Link>
               </Dropdown.Item>
             </Dropdown.Menu>
